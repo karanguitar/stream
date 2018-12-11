@@ -69,5 +69,6 @@ export const deleteStream =(id) =>{
             payload: id
 
         })
+        history.push('/')
     }
 }
